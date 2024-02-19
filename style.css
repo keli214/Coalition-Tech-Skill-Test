@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+  background-color: white;
+}
+
+@font-face {
+  font-family: "Bebas Neue";
+  src: url(fonts/bebas_Neue/bebasneue-regular-webfont.woff) format("woff");
+}
+
+#section1 {
+  background-image: url("/images/bg/header_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.icon {
+  max-height: 60px;
+}
+
+@media (max-width: 576px) {
+  section {
+    height: 100vh; /* Set height for mobile */
+    background-position: right;
+  }
+  .section-header-container {
+    height: 10%;
+    min-height: 80px;
+  }
+  .icon {
+    height: 28px;
+  }
+  nav a {
+    font-size: x-small;
+  }
+  .section2-title {
+    size: 80%;
+  }
+  .carousel-images-container {
+    height: 100vh;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .section3-header-content {
+    height: 40%;
+  }
+  .section3-main {
+    height: 62%;
+  }
+  .section3-schedule-container {
+    max-width: 80%;
+    left: 10%;
+    top: 2%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  section {
+    height: 70vh; /* Set height for medium screens */
+  }
+  .icon {
+    height: 40px;
+  }
+  nav a {
+    font-size: small;
+  }
+  .section2-header {
+    height: 10%;
+  }
+  .section2-content {
+    padding: 0;
+  }
+  .detail {
+    font-size: small;
+  }
+  .section3-header {
+    height: 20%;
+    min-height: 125px;
+  }
+  .section3-main {
+    height: 65%;
+  }
+  .section3-schedule-container {
+    max-width: 50%;
+    left: 15%;
+    top: 10%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  section {
+    height: 100vh; 
+    background-position: center center;
+  }
+  nav a {
+    font-size: small;
+  }
+  .section2-header {
+    height: 10%;
+  }
+  .carousel-images-container {
+    height: 20vh;
+  }
+  .section3-header {
+    height: 20%;
+  }
+  .section3-main {
+    height: 80%;
+  }
+  .section3-schedule-container {
+    max-width: 40%;
+    left: 20%;
+    top: 20%;
+  }
+}
+
+@media (min-width: 993px) {
+  section {
+    height: 100vh;
+    background-position: center center;
+  }
+  .section2-title {
+    padding: 0 12em;
+  }
+  .section2-detail {
+    padding: 0 22em;
+  }
+  .section3-schedule-container {
+    max-width: 20%;
+    left: 20%;
+    top: 20%;
+  }
+  .section3-main {
+    height: 80%;
+  }
+}
+
+
+.sections-nav {
+  margin: 0 2%;
+  color: white;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  text-decoration: underline;
+  text-underline-position: under;
+}
+
+#section2 a {
+  color: #404f6c;
+}
+
+.section2-main {
+  background-image: url(images/bg/page_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 90%;
+}
+
+.detail {
+  font-family: "Oswald", sans-serif;
+  color: #1f2735;
+  line-height: 1.8;
+  font-weight: lighter;
+}
+
+.carousel-images-container {
+  background-image: url(images/carousel/carousel_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  height: 8px;
+  width: 8px;
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
+}
+
+.section3-nav-container {
+  background-color: #404f6c;
+}
+.nav.nav-tabs {
+  border-radius: 0%;
+}
+
+.nav-tabs .nav-link.active {
+  background-color: #a5acb9;
+  border-color: transparent;
+  color: #404f6c;
+  text-decoration: underline;
+}
+.nav-tabs .nav-link:hover {
+  border-color: transparent;
+  color: #404f6c;
+  background-color: #a5acb9;
+  opacity: 50%;
+}
+.nav-item {
+  padding: 0;
+}
+.nav-item .nav-link {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  text-underline-position: under;
+  color: #a5acb9;
+  height: 100%;
+  width: 100%;
+  font-size: 1.5em;
+  padding: 0;
+}
+.nav-tabs .nav-link {
+  border-radius: 0%;
+}
+.tab-content {
+  height: 100%;
+}
+.tab-pane {
+  height: 100%;
+}
+#mountain-1-tab-pane {
+  background-image: url(images/bg/tab_bg1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#mountain-2-tab-pane {
+  background-image: url(images/bg/tab_bg2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section3-schedule-title-content {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: bold;
+  color: #404f6c;
+}
+
+.section3-schedule-container {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: relative;
+}
+
+.section3-schedule-list-item {
+  font-family: "Oswald", sans-serif;
+  color: #1f2735;
+  line-height: 1.8;
+  font-weight: lighter;
+  font-size: smaller;
+  list-style-type: none;
+}
+
+.section3-schedule-list {
+  height: 100%;
+}
+
+.section3-schedule-list-item p {
+  padding: 0;
+  margin: 0;
+}
+
+footer.dark {
+  background-color: #404f6c;
+}
+
+.footer-note {
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-style: italic;
+  color: #61759e;
+  text-align: right;
+}
