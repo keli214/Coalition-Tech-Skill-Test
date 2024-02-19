@@ -10,7 +10,7 @@ body {
 }
 
 #section1 {
-  background-image: url(/images/bg/header_bg.jpg);
+  background-image: url(images/bg/header_bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
